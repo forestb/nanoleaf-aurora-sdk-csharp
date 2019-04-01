@@ -6,6 +6,8 @@
     <Company />
     <Description>An SDK for interfacing with the Nanoleaf Aurora lights.</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <!--https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-2.2&tabs=windows-->
+    <UserSecretsId>3551b411-9575-47f8-afad-71e6f2883656</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -18,7 +20,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Models\Requests\RequestBodies\" />
+    <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
+      <_Parameter1>NanoleafAuroraSdk.Test</_Parameter1>
+    </AssemblyAttribute>
   </ItemGroup>
 
 </Project>

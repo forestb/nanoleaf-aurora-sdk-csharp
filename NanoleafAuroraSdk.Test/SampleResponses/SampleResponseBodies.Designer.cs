@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace NanoleafAuroraSdk.Test.SampleRequests {
+namespace NanoleafAuroraSdk.Test.SampleResponses {
     using System;
     
     
@@ -19,17 +19,17 @@ namespace NanoleafAuroraSdk.Test.SampleRequests {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class SampleRequestBodies {
+    internal class SampleResponseBodies {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal SampleRequestBodies() {
+        internal SampleResponseBodies() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace NanoleafAuroraSdk.Test.SampleRequests {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("NanoleafAuroraSdk.Test.SampleRequests.SampleRequestBodies", typeof(SampleRequestBodies).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("NanoleafAuroraSdk.Test.SampleResponses.SampleResponseBodies", typeof(SampleResponseBodies).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,29 +61,41 @@ namespace NanoleafAuroraSdk.Test.SampleRequests {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to { &quot;select&quot;: &quot;Lonely&quot; }.
+        ///   Looks up a localized string similar to [
+        ///  &quot;Be Productive&quot;,
+        ///  &quot;Be Zen&quot;,
+        ///  &quot;Candy Grams&quot;,
+        ///  &quot;Cherry blossom&quot;,
+        ///  &quot;Color Burst&quot;,
+        ///  &quot;Fireworks and Firecrackers&quot;,
+        ///  &quot;Flames&quot;,
+        ///  &quot;Floating Balloons&quot;,
+        ///  &quot;Forest&quot;,
+        ///  &quot;Forest Sunrise&quot;,
+        ///  &quot;Forest XYZ&quot;,
+        ///  &quot;Green Snake&quot;,
+        ///  &quot;Inner Peace&quot;,
+        ///  &quot;Lonely&quot;,
+        ///  &quot;Lounge&quot;,
+        ///  &quot;Natural Light&quot;,
+        ///  &quot;Nemo&quot;,
+        ///  &quot;Northern Lights&quot;,
+        ///  &quot;Rainy Light&quot;,
+        ///  &quot;Romantic&quot;,
+        ///  &quot;Roses Are Red&quot;,
+        ///  &quot;Sky Mode&quot;,
+        ///  &quot;Snow Day&quot;,
+        ///  &quot;Snow flurry&quot;,
+        ///  &quot;Snowfall&quot;,
+        ///  &quot;Sunlight through trees&quot;,
+        ///  &quot;Tropical Waterfall&quot;,
+        ///  &quot;Vineyard Vines&quot;,
+        ///  &quot;moonlight&quot;
+        ///].
         /// </summary>
-        internal static string Effects {
+        internal static string EffectsListResponse {
             get {
-                return ResourceManager.GetString("Effects", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to { &quot;on&quot;: { &quot;value&quot;: false } }.
-        /// </summary>
-        internal static string LightsOff {
-            get {
-                return ResourceManager.GetString("LightsOff", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to { &quot;on&quot;: { &quot;value&quot;: true } }.
-        /// </summary>
-        internal static string LightsOn {
-            get {
-                return ResourceManager.GetString("LightsOn", resourceCulture);
+                return ResourceManager.GetString("EffectsListResponse", resourceCulture);
             }
         }
     }

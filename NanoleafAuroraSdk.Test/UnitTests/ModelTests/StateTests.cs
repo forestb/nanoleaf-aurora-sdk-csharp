@@ -2,11 +2,12 @@ using NUnit;
 using NUnit.Framework;
 using NanoleafAuroraSdk.Test.SampleRequests;
 using Newtonsoft.Json;
-using NanoleafAuroraSdk.Models.Requests;
+using NanoleafAuroraSdk.Models.State;
 
 namespace NanoleafAuroraSdk.Test.UnitTests.ModelTests
 {
-    public class StatusTests
+    [TestFixture]
+    public class StateTests
     {
         [SetUp]
         public void Setup()
@@ -18,26 +19,26 @@ namespace NanoleafAuroraSdk.Test.UnitTests.ModelTests
         public void LightsOn()
         {
             // arrange
-            StateOnRequest obj = null;
+            StateOnRequest stateOnRequest = null;
 
             // act
-            obj = JsonConvert.DeserializeObject<StateOnRequest>(SampleRequestBodies.LightsOn);
+            stateOnRequest = JsonConvert.DeserializeObject<StateOnRequest>(SampleRequestBodies.LightsOn);
 
             // assert
-            Assert.IsTrue(obj.on.value);
+            Assert.IsTrue(stateOnRequest.on.value);
         }
 
         [Test]
         public void LightsOff()
         {
             // arrange
-            StateOnRequest obj = null;
+            StateOnRequest stateOnRequest = null;
 
             // act
-            obj = JsonConvert.DeserializeObject<StateOnRequest>(SampleRequestBodies.LightsOff);
+            stateOnRequest = JsonConvert.DeserializeObject<StateOnRequest>(SampleRequestBodies.LightsOff);
 
             // assert
-            Assert.IsFalse(obj.on.value);
+            Assert.IsFalse(stateOnRequest.on.value);
         }
     }
 }

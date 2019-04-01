@@ -1,4 +1,4 @@
-﻿namespace NanoleafAuroraSdk.Models.Requests
+﻿namespace NanoleafAuroraSdk.Models.State
 {
     public class StateOnRequest
     {

@@ -4,6 +4,8 @@
     <TargetFramework>net472</TargetFramework>
 
     <IsPackable>false</IsPackable>
+    <!--https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-2.2&tabs=windows-->
+    <UserSecretsId>871fc7f7-747c-44bf-a071-7554a0c5a87f</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -28,12 +30,21 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>SampleRequestBodies.resx</DependentUpon>
     </Compile>
+    <Compile Update="SampleResponses\SampleResponseBodies.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>SampleResponseBodies.resx</DependentUpon>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Update="SampleRequests\SampleRequestBodies.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>SampleRequestBodies.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SampleResponses\SampleResponseBodies.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SampleResponseBodies.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
 
