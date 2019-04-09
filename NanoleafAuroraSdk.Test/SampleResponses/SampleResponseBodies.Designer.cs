@@ -89,9 +89,7 @@ namespace NanoleafAuroraSdk.Test.SampleResponses {
         ///  &quot;Snowfall&quot;,
         ///  &quot;Sunlight through trees&quot;,
         ///  &quot;Tropical Waterfall&quot;,
-        ///  &quot;Vineyard Vines&quot;,
-        ///  &quot;moonlight&quot;
-        ///].
+        ///  &quot;Vineyard V [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string EffectsListResponse {
             get {
