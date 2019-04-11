@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NanoleafAuroraSdk", "Nanole
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NanoleafAuroraSdk.Test", "NanoleafAuroraSdk.Test\NanoleafAuroraSdk.Test.csproj", "{4828FC0D-97E9-4915-97BB-D873A3A54405}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NanoleafAuroraSdk.ConsoleApp", "NanoleafAuroraSdk.ConsoleApp\NanoleafAuroraSdk.ConsoleApp.csproj", "{F20CA220-0EB6-4069-B906-9FC2F6551AE9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{4828FC0D-97E9-4915-97BB-D873A3A54405}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4828FC0D-97E9-4915-97BB-D873A3A54405}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4828FC0D-97E9-4915-97BB-D873A3A54405}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F20CA220-0EB6-4069-B906-9FC2F6551AE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F20CA220-0EB6-4069-B906-9FC2F6551AE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F20CA220-0EB6-4069-B906-9FC2F6551AE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F20CA220-0EB6-4069-B906-9FC2F6551AE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

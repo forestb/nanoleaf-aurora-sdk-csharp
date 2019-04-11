@@ -1,10 +1,17 @@
-﻿namespace NanoleafAuroraSdk.Models
+﻿using System.Drawing;
+
+namespace NanoleafAuroraSdk.Models
 {
     public class PanelData
     {
         public PanelData(int id)
         {
             this.Id = id;
+        }
+
+        public PanelData(int id, Color c)
+        {
+
         }
 
         public PanelData(int id, int red, int green, int blue)
