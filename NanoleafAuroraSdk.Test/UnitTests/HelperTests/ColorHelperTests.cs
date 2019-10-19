@@ -30,7 +30,7 @@ namespace NanoleafAuroraSdk.Test.UnitTests.HelperTests
             var result = ColorHelpers.ConvertColorToHex(c);
 
             // assert
-            Assert.IsTrue(result == "0 80 0");
+            Assert.IsTrue(result == "00 80 00");
         }
     }
 }
