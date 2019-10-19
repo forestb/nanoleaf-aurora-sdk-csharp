@@ -1,7 +1,4 @@
 ﻿using RestSharp;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace NanoleafAuroraSdk.Helpers
 {
@@ -26,7 +23,7 @@ namespace NanoleafAuroraSdk.Helpers
             return ExecuteRestRequest(restCleint, restRequest);
         }
 
-        private RestClient BuildRestClient(string hostAddress, string apiKey, string relativeUrl)
+        private RestClient BuildRestClient(string host, string apiKey, string relativeUrl)
         {
             bool shouldRemoveStartingCharacter = relativeUrl.StartsWith("/");
 
@@ -35,7 +32,7 @@ namespace NanoleafAuroraSdk.Helpers
                 relativeUrl = relativeUrl.Substring(1, relativeUrl.Length - 1);
             }
 
-            var client = new RestClient($"http://{hostAddress}/api/v1/{apiKey}/{relativeUrl}");
+            var client = new RestClient($"http://{host}:16021/api/v1/{apiKey}/{relativeUrl}");
 
             return client;
         }

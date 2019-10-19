@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace NanoleafAuroraSdkNanoleafAuroraSdk.Test.Helpers
+﻿namespace NanoleafAuroraSdkNanoleafAuroraSdk.Test.Helpers
 {
     internal class EnvironmentVariableKeys
     {

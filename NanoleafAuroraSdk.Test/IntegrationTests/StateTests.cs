@@ -1,7 +1,5 @@
 ﻿using NUnit.Framework;
-using NanoleafAuroraSdk.Test.SampleRequests;
 using NanoleafAuroraSdkNanoleafAuroraSdk.Test.Helpers;
-using RestSharp;
 using NanoleafAuroraSdk.Models.State;
 
 namespace NanoleafAuroraSdk.Test.IntegrationTests

@@ -5,9 +5,7 @@ using NanoleafAuroraSdk.Models.PanelLayout;
 using NanoleafAuroraSdk.Models.State;
 using Newtonsoft.Json;
 using RestSharp;
-using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace NanoleafAuroraSdk
 {

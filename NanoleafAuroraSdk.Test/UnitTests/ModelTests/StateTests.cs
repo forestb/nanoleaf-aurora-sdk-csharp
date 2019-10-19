@@ -1,4 +1,3 @@
-using NUnit;
 using NUnit.Framework;
 using NanoleafAuroraSdk.Test.SampleRequests;
 using Newtonsoft.Json;
